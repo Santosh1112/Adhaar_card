@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.aadhaar-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 90px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    position: relative;
+}
+
+.lion-image {
+    width: 50px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+.details {
+    margin-top: 20px;
+    margin-right: 50px; 
+}
+
+.photo-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.additional-info {
+    margin-left: 20px;
+}
+
+.additional-info p {
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+}
+
+.additional-image {
+    width: 400px; 
+    height: 50px; 
+}
+
+
+
+.footer h2 {
+    font-size: 24px;
+}
+
+
+
+.new-image {
+    width: 70px; 
+    height: 0px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.new-one {
+    width: 140px; 
+    height: 140px; 
+    position: absolute;
+    top: 150px;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+
+.footer hr {
+    border: 2px solid red; 
+    margin: 10px 0;
+}
+
+.para{
+    text-align:center;
+    margin-top :3px;
+    font-size: 25px;
+}
+#s1{
+    margin-left: 50px;
+
+    width:fit-content;
+    z-index: 10;
+
+}
+.ad{
+    height:70px;
+}
